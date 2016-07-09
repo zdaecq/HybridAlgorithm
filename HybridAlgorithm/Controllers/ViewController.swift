@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  HybridAlgoritm
+//  HybridAlgorithm
 //
 //  Created by zdaecqze zdaecq on 21.05.16.
 //  Copyright © 2016 zdaecqze zdaecq. All rights reserved.
