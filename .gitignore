@@ -8,6 +8,7 @@
 *.mobileprovision
 *.zip
 report.xml
+iOSInjectionProject/
 
 ####
 # Xcode temporary files that should never be committed
