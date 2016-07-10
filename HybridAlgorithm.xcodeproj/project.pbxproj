@@ -87,8 +87,8 @@
 		661F70AE1D30EED20030B615 /* HybridAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
-				661F70AF1D30EED20030B615 /* Environment.swift */,
 				661F70B01D30EED20030B615 /* HybridAlgorithm.swift */,
+				661F70AF1D30EED20030B615 /* Environment.swift */,
 				661F70B11D30EED20030B615 /* Population.swift */,
 				661F70B21D30EED20030B615 /* Сhromosome.swift */,
 			);
@@ -313,6 +313,7 @@
 				661F70A81D30EE680030B615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

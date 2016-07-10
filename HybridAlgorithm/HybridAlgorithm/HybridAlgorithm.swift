@@ -126,7 +126,6 @@ class HybridAlgorithm {
     }
     
     func clearResult() {
-        
         guard let controller = controller else {
             print("ERROR: you need add controller")
             return

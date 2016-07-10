@@ -8,6 +8,7 @@
 
 import UIKit
 
+// TODO: remove WithLengthsArray in every method by adding property
 class Chromosome {
     
     // MARK: - Properties
@@ -72,7 +73,6 @@ class Chromosome {
         
         let newChromosome = Chromosome()
         newChromosome.gensArray = gensArray
-        //newChromosome.fitness = fitness
         
         let randIndex1 = Int(arc4random_uniform(UInt32(gensArray.count)))
         let randIndex2 = Int(arc4random_uniform(UInt32(gensArray.count)))
@@ -89,7 +89,6 @@ class Chromosome {
         newChromosome.countFitnessWithLengthsArray(array)
         
         return newChromosome
-        
     }
     
     
@@ -212,7 +211,6 @@ class Chromosome {
     
     // MARK: - Private functions
     private func generateRandomGensWithSize(size: Int) {
-        
         var newGens : [Int] = []
         
         for i in 0...size-1 {
@@ -220,7 +218,6 @@ class Chromosome {
         }
         
         newGens.shuffleInPlace()
-        
         gensArray = newGens
     }
     
